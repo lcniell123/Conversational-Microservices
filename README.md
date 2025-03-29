@@ -1,10 +1,10 @@
-# microservice-conversation
+# Conversational Microservices
 
-2 microservice containers have a conversation
+## 2 microservice containers have a conversation
 
 AI Conversation System
 
-Overview
+**Overview**
 
 This project runs two AI agents that communicate with each other for up to 5 seconds. The system consists of two services:
 
@@ -14,8 +14,7 @@ Service B: Responds to messages received from Service A.
 
 Backend: Built using FastAPI and LangChain.
 
-How to Run
-
+**How to Run**
 1. Clone the Repository
 
 git clone https://github.com/your-repo/ai-conversation.git
@@ -86,16 +85,16 @@ Expected Response:
 ]
 }
 
-Stopping the Services
-
+**Stopping the Services
+**
 To stop both services, press CTRL + C in each terminal.
 
 If using a virtual environment, deactivate it:
 
 deactivate
 
-Next Steps
-
+**Next Steps
+**
 Build a UI to display conversations
 
 Containerize services with Docker
